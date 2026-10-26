@@ -106,7 +106,7 @@ if (matchMedia("(hover: hover)").matches && !reduceMotion) {
 const API_BASE_URL = "https://nyc-airbnb-room-type-predictor-r0qa.onrender.com";
 
 function apiBase() {
-  return $("apiUrl").value.trim().replace(/\/+$/, "");
+  return API_BASE_URL.replace(/\/+$/, "");
 }
 
 function showError(message) {

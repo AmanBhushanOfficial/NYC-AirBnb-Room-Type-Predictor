@@ -103,6 +103,8 @@ if (matchMedia("(hover: hover)").matches && !reduceMotion) {
 }
 
 /* ===== Helpers ===== */
+const API_BASE_URL = "https://nyc-airbnb-room-type-predictor-r0qa.onrender.com";
+
 function apiBase() {
   return $("apiUrl").value.trim().replace(/\/+$/, "");
 }
